@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+.top{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+header{
+    height:400px;
+    width: 800px;
+    background-image:linear-gradient(rgb(192,192,192,0.3),rgba(0,255,255,0.1)),url('iris_flower.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+  
+}
+label{
+
+    font-size: 2rem;
+    color:black;
+    font-weight: bolder;
+
+}
+input{
+    height: 20px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 0;
+}
+.sepal_l,.sepal_w,.petal_l,.petal_w{
+    padding: 10px 0;
+    background-color: rgba(255,255,0,0.2);
+}
+.first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    padding: 5px 10px;
+    color: blue;
+    background: yellow;
+    font-size: 1.9rem;
+    border-radius: 20%;
+    border: none;
+    outline: none;
+    margin:15px 0 0 70px ;
+}
+.title{
+    text-align: center;
+    background:rgb(3,39,65);
+    color: white;
+    height: 70px;
+    width: 100%;
+    margin-top: 3px;
+   
+}
+h3{
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+.predicted_image img{
+    margin: auto;
+    display: block;
+    border: 2px solid grey;
+}

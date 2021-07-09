@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" href="../static/main.css">
+        <script src="../static/index.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+         <h1 class='title'>Machine Learning Project- <br>Iris Flower Classification</h1>
+         <div class="top">
+         <div class="left-side">
+            
+             <h3>Predicted Images:</h3>
+             <div class="predicted_image">
+                 <img src="../static/noimage.png" alt="" height="300px" width="200px" id='img_'>
+             </div>
+         </div>
+        <header >
+            <div class='first'>
+               
+                    <div class='sepal_l'>
+                        <label for="">Sepal length(cm):</label> 
+                        <input type="text" id='sepal_length'  autocomplete="off">
+                    </div>
+                    <div class='sepal_w'>
+                        <label for="">Sepal width(cm):</label> 
+                        <input type="text" id='sepal_width'  autocomplete="off">
+                    </div>
+                    <div class='petal_l'>
+                        <label for="">Petal length(cm):</label> 
+                        <input type="text" id='petal_length'   autocomplete="off">
+                    </div>
+                    <div class='petal_w'>
+                        <label for="">Petal width(cm):</label> 
+                        <input type="text" id='petal_width'  autocomplete="off">
+                    </div>
+                    <button type='submit' id='submitbtn' >submit </button>
+                
+            </div>
+        </header>
+        </div>
+    </body>
+    <script>
+    var a=document.getElementById('submitbtn');
+    a.addEventListener('click',register,false);
+
+    </script>
+</html>
